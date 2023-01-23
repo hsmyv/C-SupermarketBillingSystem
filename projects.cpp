@@ -2,7 +2,6 @@
 #include <Windows.h>
 #include <fstream>
 #include <string>
-// https : // www.logicraysacademy.com/blog/cpp-projects-for-beginners/
 
 using namespace std;
 
