@@ -166,13 +166,13 @@ m:
     string n;
 
     cout << "\n\n\t\t\t Add new product";
-    cout << "\n\n\t Product code of the product:";
+    cout << "\n\n\t Product code of the product : ";
     cin >> pcode;
-    cout << "\n\n\t Name of the product";
+    cout << "\n\n\t Name of the product : ";
     cin >> pname;
-    cout << "\n\n\t Price of the product";
+    cout << "\n\n\t Price of the product : ";
     cin >> price;
-    cout << "\n\n\t Discount of the product";
+    cout << "\n\n\t Discount of the product : ";
     cin >> dis;
 
     data.open("database.txt", ios::in);
@@ -241,9 +241,9 @@ void shopping ::edit()
                 cin >> n;
                 cout << "\n\t\t Price :";
                 cin >> p;
-                cout << "n\t\t Discount";
-                cin >> d;\
-                data1 << " " << c << " " << p << " " << d << "\n";
+                cout << "\n\t\t Discount :";
+                cin >> d;
+                data1 << " " << c << " " << n << " " << p << " " << d << "\n";
                 cout << "\n\n\t\t Record edited";
                 token++;
             }
